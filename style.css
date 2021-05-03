@@ -1,0 +1,53 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.draw{
+width: 480px;
+height: 480px;
+margin: 0 auto;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.tools{
+    width:480px;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px;
+}
+
+.draw div{
+    width: 2%;
+    height: 2%;
+    border: 1px solid silver;
+    background-color: white;
+    float: left;
+    
+}
+
+button{
+    width:90px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    cursor:grab;
+}
+
+button:hover{
+    color:white;
+    background-color: black;
+    transition: 0.7s;
+}
+
+input{
+    cursor: pointer;
+    width:65px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
